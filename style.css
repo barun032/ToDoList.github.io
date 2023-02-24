@@ -147,3 +147,26 @@ main{
 .focus-color{
     color: var(--pink) !important;
 }
+
+@media screen and (max-width: 768px) {
+    #new-task-input{
+        padding: 0.7rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        margin-right: 0px;
+    }
+    #new-task-submit{
+        margin-top: 10px;
+        border: 1px solid white;
+        width: 7rem;
+        padding: 5px;
+        border-radius: 7px;
+        align-self: end;
+    }
+    
+    #new-task-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
